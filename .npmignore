@@ -1,0 +1,16 @@
+.circleci
+public
+src
+
+# Config Files
+.babelrc
+.eslintrc
+.gitignore
+.lintstagedrc
+.prettierrc
+.stylelintrc
+app.json
+webpack.config.js
+
+# Webpack Build Output
+main.bundle.js

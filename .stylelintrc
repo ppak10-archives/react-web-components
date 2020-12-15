@@ -1,0 +1,13 @@
+{
+  "extends": ["stylelint-config-standard"],
+  "rules": {
+    "string-quotes": "double",
+    "at-rule-no-unknown": null,
+    "selector-no-qualifying-type": null,
+    "max-nesting-depth": 8,
+    "selector-max-compound-selectors": 8,
+    "selector-max-id": 1,
+    "order/properties-alphabetical-order": null,
+    "font-family-no-missing-generic-family-keyword": null
+  }
+}
