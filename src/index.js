@@ -6,7 +6,7 @@
 // Node Modules
 import {render} from 'react-dom';
 
-// Styles
-import 'styles/main.css';
+// Component
+import App from './App';
 
-render(<div>Hello World From React</div>, document.getElementById('root'));
+render(<App />, document.getElementById('root'));
