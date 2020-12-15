@@ -1,5 +1,5 @@
 {
-  "extends": ["eslint:recommended", "plugin/react-recommended"],
+  "extends": ["eslint:recommended", "plugin:react/recommended"],
   "parser": "babel-eslint",
   "parserOptions": {
     "ecmaVersion": 6,
@@ -24,6 +24,8 @@
         ]
       }
     ],
+    "react/jsx-uses-react": "off",
+    "react/react-in-jsx-scope": "off",
     "require-jsdoc": 0
   }
 }
